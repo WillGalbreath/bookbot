@@ -22,6 +22,7 @@ def counter(file_contents):
             chars[lowered] += 1
         else:
             chars[lowered] = 1
+    
     return chars
 
         
